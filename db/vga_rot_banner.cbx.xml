@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="vga_rot_banner">
+		<CBX_INST_ENTRY INSTANCE_NAME="|rot_banner_test|vga_rot_banner:rot_banner_unit|altera_dual_port_ram_sync:video_ram|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_1gl1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rot_banner_test|vga_rot_banner:rot_banner_unit|font_rom:font_unit|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_g311.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,69 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'vga_sync:vga_sync_unit|v_count_reg[6]'
+Slack : -8.504
+TNS   : -8.504
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -6.979
+TNS   : -335.506
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -1.934
+TNS   : -13.347
+
+Type  : Slow Model Hold 'vga_sync:vga_sync_unit|v_count_reg[6]'
+Slack : 2.523
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'vga_sync:vga_sync_unit|v_count_reg[6]'
+Slack : -4.817
+TNS   : -4.817
+
+Type  : Slow Model Removal 'vga_sync:vga_sync_unit|v_count_reg[6]'
+Slack : 0.507
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.064
+TNS   : -413.771
+
+Type  : Slow Model Minimum Pulse Width 'vga_sync:vga_sync_unit|v_count_reg[6]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'vga_sync:vga_sync_unit|v_count_reg[6]'
+Slack : -4.239
+TNS   : -4.239
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -1.940
+TNS   : -99.801
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -1.496
+TNS   : -12.308
+
+Type  : Fast Model Hold 'vga_sync:vga_sync_unit|v_count_reg[6]'
+Slack : 2.053
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'vga_sync:vga_sync_unit|v_count_reg[6]'
+Slack : -2.254
+TNS   : -2.254
+
+Type  : Fast Model Removal 'vga_sync:vga_sync_unit|v_count_reg[6]'
+Slack : 0.221
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.000
+TNS   : -360.604
+
+Type  : Fast Model Minimum Pulse Width 'vga_sync:vga_sync_unit|v_count_reg[6]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
